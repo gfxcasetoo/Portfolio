@@ -6,7 +6,7 @@ Welcome to my personal portfolio website — a responsive, modern, and minimalis
 
 ## 🔗 Live Demo
 
-<!-- [🌐 View Portfolio](https://your-portfolio-link.com) -->
+[🌐 View Portfolio](https://gfxcasetoo.github.io/Portfolio/)
 
 ---
 
@@ -28,4 +28,3 @@ Welcome to my personal portfolio website — a responsive, modern, and minimalis
 - CSS3 (Flexbox/Grid, Animations)
 - JavaScript
 
----
