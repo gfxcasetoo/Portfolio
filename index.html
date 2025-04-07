@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Souvik Chakraborty | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="logo">Souvik Chakraborty</a>
+            <div class="nav-links">
+                <a href="#home">Home</a>    
+                <a href="#about">About</a>
+                <a href="#resume">Resume</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+                <button id="theme-toggle" class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1><span class="typing-text"></span><span class="cursor"></span></h1>
+                <h2>Code. Coffee. Creativity.</h2>
+                <p class="subtitle">Final year CSE student exploring the world of AI, full-stack web dev. I love turning ideas into working code.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary">View My Work</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Background</h3>
+                    <p>I'm currently pursuing my B.Tech in Computer Science and Engineering at University of Engineering and Management, Kolkata, and I'm in my final year. Over the past few years, I've explored various areas of tech—from full-stack web development to AI.</p>
+                    <p>I started out with the basics of C and Python, and gradually expanded my skillset to HTML, CSS, JavaScript and frameworks like Flask, Flux. Along the way, I developed a strong interest in solving real-world problems using code.I'm always eager to learn new technologies.</p>
+                </div>
+                <div class="education">
+                    <h3>Education</h3>
+                    <div class="education-item">
+                        <h4>University of Engineering and Management, Kolkata</h4>
+                        <p>Bachelor of Technology in Computer Science and Engineering</p>
+                        <p class="date">2021 - 2025</p>
+                    </div>
+                    <div class="education-item">
+                        <h4>Additional Certifications</h4>
+                        <!-- <p class="date">2023 - Present</p> -->
+                        <div class="certification-links">
+                            <a href="https://www.coursera.org/account/accomplishments/professional-cert/GAQH872XQQ4N?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof" target="_blank" class="cert-link">
+                                <i class="fas fa-certificate"></i> Google Data Analytics
+                            </a>
+                            <a href="https://www.coursera.org/account/accomplishments/professional-cert/2CNPQC5CKFLU?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof" target="_blank" class="cert-link">
+                                <i class="fas fa-certificate"></i> IBM Data Analytics
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="section">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-content">
+                <p class="resume-summary">
+                    Here's a quick look at my professional background. My resume highlights my technical skills in Python, JavaScript, AI, and full-stack development, along with project like a PLacement Tracker.
+                </p>
+                <div class="resume-buttons">
+                    <a href="/resume.pdf" class="btn primary" download>
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                    <a href="/resume.pdf" class="btn secondary" target="_blank">
+                        <i class="fas fa-eye"></i> View Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Placement Tracker</h3>
+                        <p>A web application to track and manage placement opportunities for students.</p>
+                        <div class="tech-stack">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>Express</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/gfxcasetoo/Placement_Tracker" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                            <!-- <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>SwiftChat</h3>
+                        <p>A chat application with a modern UI and real-time messaging.</p>
+                        <div class="tech-stack">
+                            <span>React</span>
+                            <span>Redux</span>
+                            <span>Firebase</span>
+                            <span>Spotify API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/gfxcasetoo/SwiftChat" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                            <!-- <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-item">
+                        <span>HTML</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>CSS</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="75"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-item">
+                        <span>Python</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>MongoDB</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="70"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
+                    <div class="skill-item">
+                        <span>Git & GitHub</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>VS Code</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Feel free to reach out to me for any opportunities or just to say hello!</p>
+                    <div class="contact-links">
+                        <a href="mailto:csouvik50@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                            csouvik50@gmail.com
+                        </a>
+                        <a href="https://linkedin.com/in/souvikchakraborty2003" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                            LinkedIn Profile
+                        </a>
+                        <a href="https://github.com/gfxcasetoo" target="_blank">
+                            <i class="fab fa-github"></i>
+                            GitHub Profile
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Souvik Chakraborty. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
